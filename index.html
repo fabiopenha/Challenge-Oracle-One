@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Challenge One - Decodificador</title>
+</head>
+<body>
+    <section class="content">
+        <nav>
+            <img src="assets/images/logoMobile.svg" alt="logo" class="logo" />
+        </nav>
+        <div class="text-content">
+            <textarea rows="6" class="textArea" id="texto" placeholder="Digite seu texto"></textarea>
+            
+            
+            <div>
+                <div class="warning-box">
+                    <img src="assets/images/warning.svg" alt="aviso">
+                    <p class="warning-text">Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="button-box">
+                    <button onclick="criptografar()">Criptografar</button>
+                    <button onclick="descriptografar()" class="button-secondary">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="show-content" id="show-content">
+            <img src="assets/images/person.svg" alt="person">
+            
+            <div class="text-box-content">
+                <p class="title">Nenhuma mensagem encontrada</p>
+                <p class="subtitle">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        Criado por Fabio Penha &#128526; fabiopenha095@gmail.com
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
